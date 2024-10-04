@@ -1,0 +1,24 @@
+.test{
+    position: absolute;
+    font-size: 30px;
+    text-align: center;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    position: absolute;
+    text-align: center;
+    font-size: 30px;
+    transform: font-size 0.3s ease, color 0.3 ease;
+}
+
+a:hover{
+    font-size: 40px;
+    color: red;
+}
+
+body{
+    color: antiquewhite;
+}
