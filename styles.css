@@ -1,24 +1,16 @@
-.test{
-    position: absolute;
-    font-size: 30px;
+.test {
     text-align: center;
+}
+
+a {
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: black;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
-
-a{
     text-decoration: none;
-    position: absolute;
-    text-align: center;
-    font-size: 30px;
-    transform: font-size 0.3s ease, color 0.3 ease;
+    transition: font-size 0.3s ease-out, color 0.3s ease-out;
 }
 
-a:hover{
+a:hover {
     font-size: 40px;
-    color: red;
-}
-
-body{
-    color: antiquewhite;
+    color: blue;
 }
